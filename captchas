@@ -59,12 +59,12 @@ for($piece=0; $piece<9; $piece++) {
 	// Output
 	//header('Content-Type: image/jpeg');
 	imagejpeg($image_new, $file_name_with_full_path, 100);
-	
+	https://github.com/o001102334/captchas.php.git
 	imagedestroy($image_new);
 	
 	
 	
-	$post = array('encoded_data'=>base64_encode(file_get_contents($file_name_with_full_path)));
+	$post = array('encoded_data'=>base64_encode(file_get_contents($file_name_with_full_path)));https://github.com/o001102334/captchas.php.git
 	
 	$s = curl_init(); 
 	curl_setopt($s,CURLOPT_URL, "https://api.clarifai.com/v1/tag/"); 
